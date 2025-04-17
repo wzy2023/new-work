@@ -21,7 +21,7 @@ export const HabitItemCreateManyGroupInputObjectSchema: SchemaType = z.object({
     id: z.string().optional(), createdAt: z.union([z.date().optional(), z.string().datetime().optional()]), updatedAt: z.union([z.union([z.date(), z.string().datetime().optional()]),
     z.null()]).optional().nullable(), isDeleted: z.union([z.boolean(),
     z.null()]).optional().nullable(), name: z.string(), sort: z.union([z.number(),
-    z.null()]).optional().nullable(), enable: z.union([z.boolean(),
+    z.null()]).optional().nullable(), enabled: z.union([z.boolean(),
     z.null()]).optional().nullable(), count: z.union([z.lazy(() => NullableJsonNullValueInputSchema),
         jsonSchema]).optional(), frequency: z.union([z.lazy(() => NullableJsonNullValueInputSchema),
             jsonSchema]).optional()

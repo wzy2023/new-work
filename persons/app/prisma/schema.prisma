@@ -30,7 +30,7 @@ model HabitItem {
   isDeleted Boolean?      @default(false)
   name      String
   sort      Int?          @default(999)
-  enable    Boolean?
+  enabled   Boolean?
   count     Json?
   frequency Json?
   groupId   String

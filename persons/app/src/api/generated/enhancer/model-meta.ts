@@ -87,8 +87,8 @@ const metadata = {
                     type: "Int",
                     isOptional: true,
                     attributes: [{ "name": "@default", "args": [{ "value": 999 }] }],
-                }, enable: {
-                    name: "enable",
+                }, enabled: {
+                    name: "enabled",
                     type: "Boolean",
                     isOptional: true,
                 }, count: {
